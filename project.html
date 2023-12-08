@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="project.js"></script>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+
+  <title>Ecommerce Site</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="project.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+  
+    <div class="slider">
+      <div class="slider-container">
+      
+        <img src="images/wallpaper 4.jpg" alt="Image 2">
+        <img src="images/wallpaper11.jpg" alt="Image 3">
+        <img src="images/wal.jpg" alt="Image 3">
+        <img src="images/wallo.jpg" alt="Image 3">
+        
+
+       
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">&lt;</button>
+      <button class="next" onclick="changeSlide(1)">&gt;</button>
+    </div>
+      
+      
+    
+    </section>
+  
+
+	  
+	
+    <section id="info" >
+      <h3 style=" background-color: pink;">About Our company </h3>
+      <p>
+        At Your Beauty Company, we believe in the power of self-expression through makeup and skincare. Our range of products is designed to cater to diverse beauty needs, empowering individuals to embrace their unique style.
+      </p>
+   
+      <p>
+         <h4>Our Products</h4>
+        <p>Makeup:Explore our wide range of vibrant and long-lasting makeup products that cater to various skin tones and preferences.</p>
+        <p> Skincare: Nourish and pamper your skin with our carefully crafted skincare essentials that prioritize health and radiance.</p>
+         <p> Immerse yourself in captivating scents that leave a lasting impression wherever you go.</p>
+      </p> 
+    </section>
+	<section id="filter">
+		<button onclick="filterProducts('category1')" class="cc">Skin Care</button>
+		<button onclick="filterProducts('category2')"class="cc">Makeup </button>
+		<button onclick="filterProducts('category3')"class="cc">Accessories</button>
+	  </section>
+	
+	  <section id="products">
+		<!-- Products will be dynamically generated here -->
+	  </section>
+	  <section id="cart">
+		<h2>Shopping Cart</h2>
+		<ul id="cart-items"></ul>
+	  </section>
+    <br>
+  </main>
+
+  <footer>
+    <div>
+    <img class="brand-image" src="images/logo.jpg" alt="Company Logo">
+
+    <h1>Your Beauty Company</h1>
+
+    <p>
+      Welcome to Your Beauty Company, where beauty meets innovation. We are passionate about delivering high-quality beauty products that enhance your natural beauty and boost your confidence.
+    </p>
+<!-- 
+    <p>
+      At Your Beauty Company, we believe in the power of self-expression through makeup and skincare. Our range of products is designed to cater to diverse beauty needs, empowering individuals to embrace their unique style.
+    </p>
+ -->
+    <!-- <p>
+      **Our Products:**
+      - Makeup:Explore our wide range of vibrant and long-lasting makeup products that cater to various skin tones and preferences.
+      - Skincare: Nourish and pamper your skin with our carefully crafted skincare essentials that prioritize health and radiance.
+      - Accessories: Immerse yourself in captivating scents that leave a lasting impression wherever you go.
+    </p> -->
+
+    <p>
+      **Our Commitment:**
+      <div> are committed to cruelty-free practices and use environmentally friendly packaging. Our formulations are crafted with care, ensuring the highest standards of quality and safety.</div>
+    </p>
+
+    <p>
+      **Contact Us:**
+     <div> Address: Your Beauty Company, 123 Beauty Street, Cityville</div>
+     <div> Phone: (555) 123-4567</div>
+     <div> Email: info@yourbeautycompany.com</div>
+    </p>
+  </div>
+    <div id="social-icons">
+      <i class="fa-brands fa-facebook"></i>
+
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <button onclick="scrollToTop()">Back to Top</button>
+  </footer>
+
+</body>
+</html>
